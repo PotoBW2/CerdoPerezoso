@@ -105,7 +105,7 @@ New in 4.56
 - some minor fixes
 - resurrection auto accept now available only in instances
 New in 5.00
-- Block Battleground Quest Share feature(no more Empty Stables)
+- Función para compartir misiones en el campo de batalla (no más establos vacíos)
 - Brand New GUI made by mrmr thx bro
 New in 5.01
 -added auto mana buff remover (Intellect, Spirit, Wisdom).
