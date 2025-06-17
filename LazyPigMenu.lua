@@ -137,7 +137,7 @@ local CheckBoxTables = {
 		[8] = { "LazyPigCheckbox97", "Resurrección de instancia Aceptar OOC", "Aceptar automáticamente la resurrección si está fuera de combate" },
 		[9] = { "LazyPigCheckbox98", "Procesamiento automático de dialogos", "Evite las opciones de dialogo de los posaderos y los Maestros de Vuelo" },
 		[11] = { "LazyPigCheckbox100", "Desmontaje automático", "Desmontar automáticamente cuando lo requiera otra acción" },
-		--[12] = { "LazyPigCheckbox101", "Chat Spam Filter", "One minute ban for identical messages" },
+		--[12] = { "LazyPigCheckbox101", "Filtro de spam de chat", "One minute ban for identical messages" },
 		--[12] = { "LazyPigCheckbox102", "Block Battleground Quest Sharing", "Really? No more 'Stable' spam?" }
 	},
 	

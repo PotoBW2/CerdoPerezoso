@@ -146,8 +146,8 @@ local LazyPigMenuStrings = {
 		[19]= "Codicia",
 		[20]= "Paso",
 		[21]= "LazyPig Auto Roll Messages",
-		[22]= "Dungeon",
-		[23]= "Raid",
+		[22]= "Mazmorra",
+		[23]= "Banda",
 		[24]= "Battleground",
 		[25]= "Silenciar permanentemente",
 		[26]= "Necesidad",
@@ -175,7 +175,7 @@ local LazyPigMenuStrings = {
 		[70]= "Spam de los jugadores",
 		[71]= "Sorteo poco común",
 		[72]= "Sorteo raro",
-		[73]= "Poor-Common-Money Loot",
+		[73]= "Botín dinero-común-pobre",
 		
 		
 		[90]= "Aceptación automática de invocación",
@@ -188,7 +188,7 @@ local LazyPigMenuStrings = {
 		[97]= "Resurrección de instancia Aceptar OOC",
 		[98]= "Procesamiento automático de dialogos",
 		[100]= "Desmontaje automático",
-		[101]= "Chat Spam Filter",
+		[101]= "Filtro de spam de chat",
 		[102]= "Necesidad",
 		[103]= "Codicia",
 		[104]= "Paso",
@@ -599,7 +599,7 @@ function LazyPig_OnEvent(event)
 
 		elseif LPCONFIG.AQUE and string.find(arg1 ,"Queued") and UnitIsPartyLeader("player") then
 			if UnitInRaid("player") then
-				SendChatMessage(arg1, "RAID");
+				SendChatMessage(arg1, "Banda");
 			elseif GetNumPartyMembers() > 1 then
 				SendChatMessage(arg1, "PARTY");
 			end
