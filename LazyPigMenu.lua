@@ -100,14 +100,14 @@ local CheckBoxTables = {
 		[2] = { "LazyPigCheckbox61", "Escudo guerrero/Oso druida" },
 	},
 
-	["Eliminador de beneficios de maná (Espíritu, Int, Sabiduría)"] = {
+	["Elim. de buffs de maná(Esp,Int,Sab)"] = {
 		[0] = "LazyPigCheckBoxGroupManaBuffRemover",
 		[1] = {"LazyPigCheckbox62","Siempre"}
 	},
 
 	["Aspecto del lobo"] = {
 		[0] = "LazyPigCheckBoxGroupAspect",
-		[1] = { "LazyPigCheckbox63", "Eliminar el aspecto del lobo", "Remove Wolf when attempting to shoot." },
+		[1] = { "LazyPigCheckbox63", "Eliminar el aspecto del lobo", "Quita a lobo cuando intentes disparar." },
 	},
 	
 	["Reglas para la exhibición de placas de identificación"] = {
@@ -354,7 +354,7 @@ function LazyPig_CreateOptionsFrame()
 	local str = "Filtro de chat"
 	frame.cbgroup_chatfilter = CheckBoxGroup(frame, 450, -125, str, CheckBoxTables[str])
 
-	local str = "Eliminador de beneficios de maná (Espíritu, Int, Sabiduría)"
+	local str = "Elim. de buffs de maná(Esp,Int,Sab)"
 	frame.cbgroup_manabuffremover = CheckBoxGroup(frame,450,-220,str,CheckBoxTables[str])
 
 	local str = "Aspecto del lobo"

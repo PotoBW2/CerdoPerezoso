@@ -145,7 +145,7 @@ local LazyPigMenuStrings = {
 		[18]= "Necesidad",
 		[19]= "Codicia",
 		[20]= "Paso",
-		[21]= "LazyPig Auto Roll Messages",
+		[21]= "Mensj. de sorteo auto. de CerdoPerezoso",
 		[22]= "Mazmorra",
 		[23]= "Banda",
 		[24]= "Campo de batalla",
@@ -169,7 +169,7 @@ local LazyPigMenuStrings = {
 		
 		[60]= "Siempre",
 		[61]= "Escudo guerrero/Oso druida",
-		[62] = "Quitar Sabiduría/Inteligencia/Espíritu",
+		[62] = "Quitar Sab/Int/Esp",
 		[63] = "Eliminar el aspecto del lobo",
 		
 		[70]= "Spam de los jugadores",
