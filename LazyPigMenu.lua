@@ -110,11 +110,11 @@ local CheckBoxTables = {
 		[1] = { "LazyPigCheckbox63", "Remove Aspect of the Wolf", "Remove Wolf when attempting to shoot." },
 	},
 	
-	["Nameplates Display Rules"] = {
+	["Reglas para la exhibición de placas de identificación"] = {
 		[0] = "LazyPigCheckboxGroupNameplates",
-		[1] = { "LazyPigCheckbox40", "Show Friends" },
-		[2] = { "LazyPigCheckbox41", "Show Enemies" },
-		[3] = { "LazyPigCheckbox42", "Hide if Unchecked" }
+		[1] = { "LazyPigCheckbox40", "Mostrar amigos" },
+		[2] = { "LazyPigCheckbox41", "Mostrar enemigos" },
+		[3] = { "LazyPigCheckbox42", "Ocultar si no está marcado" }
 	},
 
 	["Reglas para aceptar invitaciones grupales"] = {
@@ -125,7 +125,7 @@ local CheckBoxTables = {
 		[4] = { "LazyPigCheckbox33", "No se aceptaran invitaciones automáticamente mientras se está en el campo de batalla o en la cola" }
 	},
 
-	["Single Choice Rules"] = {
+	["Reglas de opción única"] = {
 		[0] = "LazyPigCheckboxGroupSingleChoice",
 		[1] = { "LazyPigCheckbox90", "Summon Auto Accept", "If checked summons will be accepted before they expire" },
 		[2] = { "LazyPigCheckbox91", "Loot Window Auto Position", "Position the loot window under the mouse-cursor"},
@@ -342,10 +342,10 @@ function LazyPig_CreateOptionsFrame()
 	local str = "Automatización de campos de batalla"
 	frame.cbgroup_bgautomation = CheckBoxGroup(frame, 250, -292, str, CheckBoxTables[str])
 	
-	local str = "Nameplates Display Rules"
+	local str = "Reglas para la exhibición de placas de identificación"
 	frame.cbgroup_nameplates = CheckBoxGroup(frame, 250, -397, str, CheckBoxTables[str])
 	
-	local str = "Single Choice Rules"
+	local str = "Reglas de opción única"
 	frame.cbgroup_singlechoise = CheckBoxGroup(frame, 250, -465, str, CheckBoxTables[str])
 	
 	local str = "Silenciar el Chat Mundial"

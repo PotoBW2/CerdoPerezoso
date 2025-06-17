@@ -139,7 +139,7 @@
 						</Anchor>
 					</Anchors>
 				</FontString>
-				<FontString name="LazyPigText6" inherits="GameFontNormal" text="Nameplates Display Rules">
+				<FontString name="LazyPigText6" inherits="GameFontNormal" text="Reglas para la exhibición de placas de identificación">
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="LazyPigText0">
 							<Offset>
@@ -171,7 +171,7 @@
 				
 				
 				
-				<FontString name="LazyPigText9" inherits="GameFontNormal" text="Single Choice Rules">
+				<FontString name="LazyPigText9" inherits="GameFontNormal" text="Reglas de opción única">
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="LazyPigText0">
 							<Offset>
@@ -1074,7 +1074,7 @@
 	
 		
 		
-		<!-- Nameplates Display Rules -->
+		<!-- Reglas para la exhibición de placas de identificación -->
 		<CheckButton name="LazyPigCheckbox40" inherits="LazyPigCheckboxTemplate">
 			<Anchors>
 				<Anchor point="TOPLEFT" relativeTo="LazyPigText4">
