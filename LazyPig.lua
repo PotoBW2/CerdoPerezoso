@@ -180,7 +180,7 @@ local LazyPigMenuStrings = {
 		
 		[90]= "Aceptación automática de invocación",
 		[91]= "Posición automática de la ventana de botín",
-		[92]= "Improved Right Click",
+		[92]= "Clic derecho mejorado",
 		[93]= "Easy Split/Merge (Shift+Right_Click)",
 		[94]= "Extended Camera Distance",
 		[95]= "Special Key Combinations",

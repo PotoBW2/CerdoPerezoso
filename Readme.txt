@@ -73,7 +73,7 @@ New in 2.5
 - fixed bg auto leave feature (did not trigger sometimes)
 New in 2.7
 - added new key combinations
-- improved right click on container items
+- Se mejoró el clic derecho en los elementos del contenedor.
 - added auto repair function(performed when merchant frame is visible and Shift key pressed)
 - improved quest/gossip auto processing
 New in 2.8
