@@ -418,10 +418,10 @@ function ScheduleFunctionLaunch(func, delay)
 end
 
 function LazyPig_OnEvent(event)
-	if (event == "ADDON_LOADED") and (arg1 == "_LazyPig") then
-		local LP_TITLE = GetAddOnMetadata("_LazyPig", "Title")
-		local LP_VERSION = GetAddOnMetadata("_LazyPig", "Version")
-		local LP_AUTHOR = GetAddOnMetadata("_LazyPig", "Author")
+	if (event == "ADDON_LOADED") and (arg1 == "CerdoPerezoso") then
+		local LP_TITLE = GetAddOnMetadata("CerdoPerezoso", "Title")
+		local LP_VERSION = GetAddOnMetadata("CerdoPerezoso", "Version")
+		local LP_AUTHOR = GetAddOnMetadata("CerdoPerezoso", "Author")
 		
 		DEFAULT_CHAT_FRAME:AddMessage(LP_TITLE .. " v" .. LP_VERSION .. " by " .."|cffFF0066".. LP_AUTHOR .."|cffffffff".. " loaded, type".."|cff00eeee".." /lp".."|cffffffff for options")
 	elseif (event == "PLAYER_LOGIN") then

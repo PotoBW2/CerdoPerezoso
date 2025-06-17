@@ -2,7 +2,7 @@
 ..\FrameXML\UI.xsd">
 	
 	
-	<!-- _LazyPig -->
+	<!-- CerdoPerezoso -->
 	
 	<CheckButton name="LazyPigCheckboxTemplate" hidden="false" virtual="true">
 		<Size>
