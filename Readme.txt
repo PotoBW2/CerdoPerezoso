@@ -22,10 +22,10 @@ MINOR ENHANCEMENTS:
 ACEPTACIÓN AUTOMÁTICA DE GRUPO - 3 modos (COMPAÑEROS DE GREMIO, COMPAÑEROS DE GREMIO > AMIGOS, TODOS)
 ACEPTACIÓN AUTOMÁTICA DE INVOCACIÓN: acepta 2 segundos antes de que expire el tiempo de confirmación
 INSTANCE RESURECTION ACCEPT OOC		- instant accept OOC(ouf of combat)
-EXTENDED CAMERA DISTANCE		- increase max camera distance up to 50y
+DISTANCIA DE CÁMARA AMPLIADA: aumenta la distancia máxima de la cámara hasta 50 yardas
 
 
-SPECIAL KEY COMBINATIONS
+Combinaciones especiales de teclas
 alt+ctrl+shift				- logout
 
 ctrl+shift				- follow
