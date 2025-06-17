@@ -7,7 +7,7 @@ This mod is mostly for lazy people:
 MEJORAS PASIVAS:
 AUTO DISMOUNT 				- when casting spell or interacting with flightmaster(aq40 mounts included)
 AUTO ZG ROLL 				- on bijou, coins(avaliable 4 modes: off, Paso, Codicia, Necesidad)
-LOOT WINDOW AUTO POSITION		- under the cursor when looting
+POSICIÓN AUTOMÁTICA DE LA VENTANA DE BOTÍN: debajo del cursor al saquear
 GOSSIP AUTO PROCESSING			- when talking to NPC(taxi, battlemaster, innkeeper, vendors)
 Silenciar el Chat Mundial				- mute /world channel in raid/dungeon/bg zone also filter repeated messages(30s default ban time)
 IMPROVED RIGHT CLICK			- if trade/auction/mail window is active, right click on container item will drag and drop it into trade/auction_create/send_mail window
@@ -20,7 +20,7 @@ REPEATABLE QUESTS AUTOCOMPLETE 		- token quests like: AD(scourge stones,insignia
 
 MINOR ENHANCEMENTS:
 ACEPTACIÓN AUTOMÁTICA DE GRUPO - 3 modos (COMPAÑEROS DE GREMIO, COMPAÑEROS DE GREMIO > AMIGOS, TODOS)
-SUMMON AUTO ACCEPT 	  		- accept 2 seconds before confirm time expire
+ACEPTACIÓN AUTOMÁTICA DE INVOCACIÓN: acepta 2 segundos antes de que expire el tiempo de confirmación
 INSTANCE RESURECTION ACCEPT OOC		- instant accept OOC(ouf of combat)
 EXTENDED CAMERA DISTANCE		- increase max camera distance up to 50y
 
