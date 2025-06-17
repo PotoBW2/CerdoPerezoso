@@ -50,10 +50,10 @@ local CheckBoxTables = {
 
 	["Silenciar el Chat Mundial"] = {
 		[0] = "LazyPigCheckboxGroupWorldChatMute",
-		[1] = { "LazyPigCheckbox22", "Dungeons" },
-		[2] = { "LazyPigCheckbox23", "Raids" },
-		[3] = { "LazyPigCheckbox24", "Battlegrounds" },
-		[4] = { "LazyPigCheckbox25", "Mute Permanently", "Mute the WorldChannel for good..."}
+		[1] = { "LazyPigCheckbox22", "Mazmorras" },
+		[2] = { "LazyPigCheckbox23", "Bandas" },
+		[3] = { "LazyPigCheckbox24", "Campos de batalla" },
+		[4] = { "LazyPigCheckbox25", "Silenciar permanentemente", "Silencia el WorldChannel para siempre..."}
 	},
 	
 	["Aut. de sorteos de arena/mineral de G.Alanegra"] = {
@@ -107,7 +107,7 @@ local CheckBoxTables = {
 
 	["Aspecto del lobo"] = {
 		[0] = "LazyPigCheckBoxGroupAspect",
-		[1] = { "LazyPigCheckbox63", "Remove Aspect of the Wolf", "Remove Wolf when attempting to shoot." },
+		[1] = { "LazyPigCheckbox63", "Eliminar el aspecto del lobo", "Remove Wolf when attempting to shoot." },
 	},
 	
 	["Reglas para la exhibición de placas de identificación"] = {
@@ -132,22 +132,22 @@ local CheckBoxTables = {
 		[3] = { "LazyPigCheckbox92", "Clic derecho mejorado", "Haga clic derecho para arrastrar y soltar elementos en los marcos de correo, comercio y subasta" },
 		[4] = { "LazyPigCheckbox93", "División/Fusionar fácilmente (Mayús+Clic derecho)", "???"},
 		[5] = { "LazyPigCheckbox94", "Distancia de cámara extendida", "Amplíe la distancia de la cámara al máximo" },
-		[6] = { "LazyPigCheckbox95", "Combinaciones especiales de teclas", "Activate the Special-Key-Combinations" },
-		[7] = { "LazyPigCheckbox96", "Duel Auto Decline (Shift to ByPass)" },
-		[8] = { "LazyPigCheckbox97", "Instance Resurrection Accept OOC", "Auto Accept Resurrection if OutOfCombat" },
-		[9] = { "LazyPigCheckbox98", "Gossip Auto Processing", "Skip Gossip-Windows-Choises from Innkeepers and FlyMasters" },
-		[11] = { "LazyPigCheckbox100", "Auto Dismount", "Auto-Dismount when it's required by another action" },
+		[6] = { "LazyPigCheckbox95", "Combinaciones especiales de teclas", "Activar las combinaciones de teclas especiales" },
+		[7] = { "LazyPigCheckbox96", "Rechazo automático de duelo (cambiar a omición)" },
+		[8] = { "LazyPigCheckbox97", "Resurrección de instancia Aceptar OOC", "Aceptar automáticamente la resurrección si está fuera de combate" },
+		[9] = { "LazyPigCheckbox98", "Procesamiento automático de dialogos", "Evite las opciones de dialogo de los posaderos y los Maestros de Vuelo" },
+		[11] = { "LazyPigCheckbox100", "Desmontaje automático", "Desmontar automáticamente cuando lo requiera otra acción" },
 		--[12] = { "LazyPigCheckbox101", "Chat Spam Filter", "One minute ban for identical messages" },
 		--[12] = { "LazyPigCheckbox102", "Block Battleground Quest Sharing", "Really? No more 'Stable' spam?" }
 	},
 	
 		["Filtro de chat"] = {
 		[0] = "LazyPigCheckboxChatFilter",
-		[1] = { "LazyPigCheckbox70", "Players' Spam" },
-		[2] = { "LazyPigCheckbox71", "Uncommon Roll" },
-		[3] = { "LazyPigCheckbox72", "Rare Roll" },
-		[4] = { "LazyPigCheckbox73", "Poor-Common Loot" },
-		[5] = { "LazyPigCheckbox21", "Lazy Pig Auto Roll Messages" }
+		[1] = { "LazyPigCheckbox70", "Spam de los jugadores" },
+		[2] = { "LazyPigCheckbox71", "Sorteo poco común" },
+		[3] = { "LazyPigCheckbox72", "Sorteo raro" },
+		[4] = { "LazyPigCheckbox73", "Botín pobre-común" },
+		[5] = { "LazyPigCheckbox21", "Mensajes de sorteo automático de CerdoPerezoso" }
 	},
 }
 --Grey-Common Loot

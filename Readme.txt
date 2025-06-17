@@ -75,7 +75,7 @@ New in 2.7
 - added new key combinations
 - Se mejoró el clic derecho en los elementos del contenedor.
 - added auto repair function(performed when merchant frame is visible and Shift key pressed)
-- improved quest/gossip auto processing
+- Procesamiento automático de misiones y dialogos mejorado
 New in 2.8
 - improved Shift Split(see v1.8 changelog)
 New in 2.83
