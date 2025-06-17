@@ -183,7 +183,7 @@
 				
 				
 				<!-- Non configurable enhancments-->
-				<FontString name="LazyPigText10" inherits="GameFontNormal" text="Non Configurable Enhancements">
+				<FontString name="LazyPigText10" inherits="GameFontNormal" text="Mejoras no configurables">
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="LazyPigText0"  >
 							<Offset>
@@ -221,7 +221,7 @@
 					</Anchors>
 				</FontString>	
 				
-				<FontString name="LazyPigText14" inherits="GameFontNormal" text="Configurable Key Bindings">
+				<FontString name="LazyPigText14" inherits="GameFontNormal" text="Atajos de teclado configurables">
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeTo="LazyPigText0">
 							<Offset>
