@@ -1,29 +1,29 @@
 local _G = _G or getfenv(0)
 
 local FontstringTables = {
-	["Non-Configurable Keys"] = {
+	["Teclas no configurables"] = {
 		[0] = "LazyPigNCE",
-		[1] = { "LazyPig_kbfs000", "Sell Grey Items/Repairs:", "Hold Alt Key while Merchant's window is open" },
-		[2] = { "LazyPig_kbfs001", "Repeatable Quest Auto-Complete:", "Hold Alt Key and finish quest once to record the steps." },
-		[3] = { "LazyPig_kbfs002", "Quest Auto-PickUp/Auto-Complete:", "Hold Alt Key to Pickup/Complete quests." },
+		[1] = { "LazyPig_kbfs000", "Vender artículos grises/reparaciones:", "Mantenga presionada la tecla Alt mientras la ventana del comerciante esté abierta" },
+		[2] = { "LazyPig_kbfs001", "Autocompletar misiones repetibles:", "Mantenga presionada la tecla Alt y finalice la misión una vez para registrar los pasos." },
+		[3] = { "LazyPig_kbfs002", "Búsqueda automática/autocompletar:", "Mantenga presionada la tecla Alt para recoger/completar misiones." },
 	},
 
-	["Special Key-Combinations"] = {
+	["Combinaciones especiales de teclas"] = {
 		[0] = "LazyPigSKCB",
-		[1] = { "LazyPig_kbfs010", "Follow:", "CTRL-SHIFT" },
-		[2] = { "LazyPig_kbfs011", "Inspect Player/Bid Auction:", "ALT-SHIFT" },
-		[3] = { "LazyPig_kbfs012", "Send Mail/Create Auction:", "CTRL-ALT" },
-		[4] = { "LazyPig_kbfs013", "Confirm Popup/Buy Auction:", "CTRL-ALT" },
-		[5] = { "LazyPig_kbfs014", "Initiate-Accept Trade:", "CTRL-ALT" },
+		[1] = { "LazyPig_kbfs010", "Seguir:", "CTRL-SHIFT" },
+		[2] = { "LazyPig_kbfs011", "Inspeccionar jugador/Oferta de subasta:", "ALT-SHIFT" },
+		[3] = { "LazyPig_kbfs012", "Enviar correo/Crear subasta:", "CTRL-ALT" },
+		[4] = { "LazyPig_kbfs013", "Confirmar ventana emergente/Comprar subasta:", "CTRL-ALT" },
+		[5] = { "LazyPig_kbfs014", "Iniciar-Aceptar Comercio:", "CTRL-ALT" },
 	},
 
-	["Configurable Keys"] = {
+	["Teclas configurables"] = {
 		[0] = "LazyPigCKB",
-		[1] = { "LazyPig_kbfs020", "Logout:", "" },
-		[2] = { "LazyPig_kbfs021", "Unstuck", "" },
-		[3] = { "LazyPig_kbfs022", "Reload UI:", "" },
-		[4] = { "LazyPig_kbfs023", "Target WSG EFC/Duel Request-Cancel", "" },
-		[5] = { "LazyPig_kbfs024", "Drop WSG Flag/Remove Slow Fall Buff", "" },
+		[1] = { "LazyPig_kbfs020", "Cerrar sesión:", "" },
+		[2] = { "LazyPig_kbfs021", "Despegado", "" },
+		[3] = { "LazyPig_kbfs022", "Recargar UI:", "" },
+		[4] = { "LazyPig_kbfs023", "Solicitud de cancelación de EFC/Duelo de Objetivo GGG", "" },
+		[5] = { "LazyPig_kbfs024", "Eliminar la bandera de GGG/Eliminar la mejora de caída lenta", "" },
 	},
 }
 
@@ -153,7 +153,7 @@ function LazyPig_CreateKeybindsFrame()
 	-- MenuTitle FontString
 	local fs_title = frame:CreateFontString(nil, "ARTWORK", "GameFontNormalSmall")
 	fs_title:SetPoint("CENTER", frame.texture_title, "CENTER", 0, 12)
-	fs_title:SetText("LazyPig Keybinds")
+	fs_title:SetText("Atajos de Cerdo Perezoso")
 
 	frame.fs_title = fs_title
 
