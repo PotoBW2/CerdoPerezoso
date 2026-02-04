@@ -187,7 +187,7 @@ function LazyPig_CreateOptionsFrame()
 	local fs_title = frame:CreateFontString(nil, "ARTWORK", "GameFontNormalSmall")
 	local LP_VERSION = GetAddOnMetadata("_LazyPig", "Version")
 	fs_title:SetPoint("CENTER", frame.texture_title, "CENTER", 0, 12)
-	fs_title:SetText("LazyPig Options")
+	fs_title:SetText("Opciones de Cerdo Perezoso")
 	
 	local versionText = frame:CreateFontString("$parentVersionText", "ARTWORK", "GameFontNormalSmall")
 	versionText:SetPoint("TOPLEFT", frame, 20, -20)
