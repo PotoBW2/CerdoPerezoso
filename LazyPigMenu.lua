@@ -191,7 +191,7 @@ function LazyPig_CreateOptionsFrame()
 	
 	local versionText = frame:CreateFontString("$parentVersionText", "ARTWORK", "GameFontNormalSmall")
 	versionText:SetPoint("TOPLEFT", frame, 20, -20)
-	versionText:SetText("version: "..LP_VERSION)
+	versionText:SetText("versión: "..LP_VERSION)
 
 	frame.fs_title = fs_title
 
