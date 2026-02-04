@@ -67,7 +67,7 @@ LazyPigOptions = {
 		exclusive = true,
 		checkBoxes = {
 			{ text = ALWAYS, var = "SALVA", value = 1, tooltip = ALWAYS, setFunc = LazyPig_CheckSalvation },
-			{ text = "Smart", var = "SALVA", value = 2, tooltip = "Smart", tooltipSub = "Auto remove if:\nYou are Warrior and have shield equipped,\nYou are Shaman and have shield equipped and have Spirit Armor talent rank 2,\nYou are Druid in Bear Form,\nYou are Paladin with Righteous Fury.", setFunc = LazyPig_CheckSalvation },
+			{ text = "Inteligente", var = "SALVA", value = 2, tooltip = "Smart", tooltipSub = "Auto remove if:\nYou are Warrior and have shield equipped,\nYou are Shaman and have shield equipped and have Spirit Armor talent rank 2,\nYou are Druid in Bear Form,\nYou are Paladin with Righteous Fury.", setFunc = LazyPig_CheckSalvation },
 		},
 	},
 	{
@@ -79,56 +79,56 @@ LazyPigOptions = {
 	{
 		text = "Reglas para aceptar invitaciones grupales",
 		checkBoxes = {
-			{ text = "GuildMates", var = "GINV", tooltip = "Auto accept invites from guild members." },
-			{ text = "Friends", var = "FINV", tooltip = "Auto accept invites from friends." },
-			{ text = "Strangers", var = "SINV", tooltip = "Auto accept invites from strangers." },
-			{ text = "Idle while in BG or Queue", var = "DINV", tooltip = "Do not auto accept invites while in battleground or queue." }
+			{ text = "Compañeros de gremio", var = "GINV", tooltip = "Auto accept invites from guild members." },
+			{ text = "Amigos", var = "FINV", tooltip = "Auto accept invites from friends." },
+			{ text = "Extraños", var = "SINV", tooltip = "Auto accept invites from strangers." },
+			{ text = "Inactivo mientras está en BG o en cola", var = "DINV", tooltip = "Do not auto accept invites while in battleground or queue." }
 		},
 	},
 	{
 		text = "Automatización de campos de batalla",
 		checkBoxes = {
-			{ text = "Enter Battleground", var = "EBG", tooltip = "Enter battleground as soon as the queue popup." },
-			{ text = "Leave Battleground", var = "LBG", tooltip = "Leave battleground as soon as it's finished." },
-			{ text = "Queue Battleground", var = "QBG", tooltip = "Join first available queue as soon as the battle master is right-clicked." },
-			{ text = "Auto Release", var = "RBG", tooltip = "Auto release spirit in battlegrounds." },
-			{ text = "Leader Queue Announce", var = "AQUE", tooltip = "Auto announce joining battleground queue as a raid leader." },
-			{ text = "Block BG Quest Sharing", var = "SBG", tooltip = "Auto decline shared quests while in battlegrounds." }
+			{ text = "Entrar al campo de batalla", var = "EBG", tooltip = "Enter battleground as soon as the queue popup." },
+			{ text = "Abandonar el campo de batalla", var = "LBG", tooltip = "Leave battleground as soon as it's finished." },
+			{ text = "Campo de batalla de cola", var = "QBG", tooltip = "Join first available queue as soon as the battle master is right-clicked." },
+			{ text = "Liberación automática", var = "RBG", tooltip = "Auto release spirit in battlegrounds." },
+			{ text = "Anuncio de la cola del líder", var = "AQUE", tooltip = "Auto announce joining battleground queue as a raid leader." },
+			{ text = "Compartir misiones de Block BG", var = "SBG", tooltip = "Auto decline shared quests while in battlegrounds." }
 		},
 	},
 	{
 		text = "Filtro de chat",
 		checkBoxes = {
-			{ text = "Players' Spam", var = "SPAM", tooltip = "Hide players' spam messages." },
-			{ text = "Uncommon Roll", var = "SPAM_UNCOMMON", tooltip = "Hide uncommon (green) loot roll messages." },
-			{ text = "Rare Roll", var = "SPAM_RARE", tooltip = "Hide rare (blue) loot roll messages." },
-			{ text = "Poor-Common Loot", var = "SPAM_LOOT", tooltip = "Hide poor and common (grey and white) loot roll messages." },
-			{ text = "LazyPig Messages", var = "ROLLMSG", tooltip = "Show LazyPig auto roll messages." }
+			{ text = "Spam de los jugadores", var = "SPAM", tooltip = "Hide players' spam messages." },
+			{ text = "Lanzamiento poco común", var = "SPAM_UNCOMMON", tooltip = "Hide uncommon (green) loot roll messages." },
+			{ text = "Lanzamiento raro", var = "SPAM_RARE", tooltip = "Hide rare (blue) loot roll messages." },
+			{ text = "Botín pobre-común", var = "SPAM_LOOT", tooltip = "Hide poor and common (grey and white) loot roll messages." },
+			{ text = "Mensajes de Cerdo Perezoso", var = "ROLLMSG", tooltip = "Show LazyPig auto roll messages." }
 		},
 	},
 	{
 		text = "Silenciar el chat mundial",
 		checkBoxes = {
-			{ text = "Dungeons", var = "WORLDDUNGEON", tooltip = "Mute world chat while in dungeons.", setFunc = LazyPig_ZoneCheck },
+			{ text = "Mazmorras", var = "WORLDDUNGEON", tooltip = "Mute world chat while in dungeons.", setFunc = LazyPig_ZoneCheck },
 			{ text = "Raids", var = "WORLDRAID", tooltip = "Mute world chat while in raids.", setFunc = LazyPig_ZoneCheck },
-			{ text = "Battlegrounds", var = "WORLDBG", tooltip = "Mute world chat while in battlegrounds.", setFunc = LazyPig_ZoneCheck },
-			{ text = "Mute Permanently", var = "WORLDUNCHECK", tooltip = "Mute world chat for good...", setFunc = LazyPig_ZoneCheck }
+			{ text = "Campos de Batalla", var = "WORLDBG", tooltip = "Mute world chat while in battlegrounds.", setFunc = LazyPig_ZoneCheck },
+			{ text = "Silenciar Permanentemente", var = "WORLDUNCHECK", tooltip = "Mute world chat for good...", setFunc = LazyPig_ZoneCheck }
 		},
 	},
 	{
 		text = MISCELLANEOUS,
 		checkBoxes = {
-			{ text = "Summon Auto Accept", var = "SUMM", tooltip = "Summon Auto Accept", tooltipSub = "If checked summons will be accepted before they expire." },
-			{ text = "Loot Window Auto Position", var = "LOOT", tooltip = "Loot Window Auto Position", tooltipSub = "Position the loot window under the mouse cursor."},
-			{ text = "Improved Right Click", var = "RIGHT", tooltip = "Improved Right Click", tooltipSub = "Right Click to drag and drop items into Mail, Trade, Auction Frames.", setFunc = LazyPig_MailtoCheck },
-			{ text = "Easy Stack Split/Merge", var = "SHIFTSPLIT", tooltip = "Easy stack split/merge", tooltipSub = "Shift + Right Click on item to start, hold Control or Alt to change split amount, Shift + Right Click on item again to finish.", setFunc = LazyPig_MailtoCheck },
-			{ text = "Extended Camera Distance", var = "CAM", tooltip = "Extended Camera Distance", tooltipSub = "Extend the camera distance to its maximum.", setFunc = LazyPig_RefreshCamera },
-			{ text = "Special Key Combinations", var = "SPECIALKEY", tooltip = "Special Key Combinations", tooltipSub = "Activate the Special Key Combinations, click Keybinds button for more details." },
-			{ text = "Duel Auto Decline", var = "DUEL", tooltip = "Auto decline duels (hold Shift to bypass)." },
-			{ text = "Instance Resurrection Auto Accept", var = "REZ", tooltip = "Instance Resurrection Auto Accept", tooltipSub = "Auto accept resurrection in raids, dungeons and battlegrounds if player resurrecting you is out of combat." },
-			{ text = "Gossip Auto Processing", var = "GOSSIP", tooltip = "Gossip Auto Processing (hold Shift to bypass)", tooltipSub = "Skip gossip choises from innkeepers, fly masters etc." },
-			{ text = "Auto Dismount", var = "DISMOUNT", tooltip = "Auto Dismount", tooltipSub = "Auto dismount when it's required by another action." },
-			{ text = "Auto Stance", var = "AUTOSTANCE", tooltip = "Auto Stance", tooltipSub = "Automatically change to required warrior stance/druid form on spell cast." },
+			{ text = "Aceptación automática de invocación", var = "SUMM", tooltip = "Summon Auto Accept", tooltipSub = "If checked summons will be accepted before they expire." },
+			{ text = "Posición automática de la ventana de botín", var = "LOOT", tooltip = "Loot Window Auto Position", tooltipSub = "Position the loot window under the mouse cursor."},
+			{ text = "Clic derecho mejorado", var = "RIGHT", tooltip = "Improved Right Click", tooltipSub = "Right Click to drag and drop items into Mail, Trade, Auction Frames.", setFunc = LazyPig_MailtoCheck },
+			{ text = "División/fusión de pila fácil", var = "SHIFTSPLIT", tooltip = "Easy stack split/merge", tooltipSub = "Shift + Right Click on item to start, hold Control or Alt to change split amount, Shift + Right Click on item again to finish.", setFunc = LazyPig_MailtoCheck },
+			{ text = "Distancia de cámara extendida", var = "CAM", tooltip = "Extended Camera Distance", tooltipSub = "Extend the camera distance to its maximum.", setFunc = LazyPig_RefreshCamera },
+			{ text = "Combinaciones especiales de teclas", var = "SPECIALKEY", tooltip = "Special Key Combinations", tooltipSub = "Activate the Special Key Combinations, click Keybinds button for more details." },
+			{ text = "Rechazo automático de duelo", var = "DUEL", tooltip = "Auto decline duels (hold Shift to bypass)." },
+			{ text = "Aceptación automática de resurrección de instancia", var = "REZ", tooltip = "Instance Resurrection Auto Accept", tooltipSub = "Auto accept resurrection in raids, dungeons and battlegrounds if player resurrecting you is out of combat." },
+			{ text = "Procesamiento automático de chismes", var = "GOSSIP", tooltip = "Gossip Auto Processing (hold Shift to bypass)", tooltipSub = "Skip gossip choises from innkeepers, fly masters etc." },
+			{ text = "Desmontaje automático", var = "DISMOUNT", tooltip = "Auto Dismount", tooltipSub = "Auto dismount when it's required by another action." },
+			{ text = "Postura automática", var = "AUTOSTANCE", tooltip = "Auto Stance", tooltipSub = "Automatically change to required warrior stance/druid form on spell cast." },
 		},
 	},
 }
