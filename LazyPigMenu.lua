@@ -1,6 +1,6 @@
 LazyPigOptions = {
 	{
-		text = "Green Items Roll [Ctrl + Alt]",
+		text = "Lanzamiento para objetos verdes [Ctrl + Alt]",
 		exclusive = true,
 		checkBoxes = {
 			{ text = NEED, var = "GREEN", value = 1, tooltip = NEED },
@@ -9,7 +9,7 @@ LazyPigOptions = {
 		},
 	},
 	{
-		text = "Zul'Gurub Roll Automation",
+		text = "Lanzamiento automático para Zul'Gurub",
 		exclusive = true,
 		checkBoxes = {
 			{ text = NEED, var = "ZG", value = 1, tooltip = NEED },
@@ -18,7 +18,7 @@ LazyPigOptions = {
 		},
 	},
 	{
-		text = "Molten Core Roll Automation",
+		text = "Lanzamiento automático para Núcleo Magma",
 		exclusive = true,
 		checkBoxes = {
 			{ text = NEED, var = "MC", value = 1, tooltip = NEED },
@@ -27,7 +27,7 @@ LazyPigOptions = {
 		},
 	},
 	{
-		text = "AQ Idols + Scarabs Automation",
+		text = "Automatización de AQ Ídolos + Escarabajos",
 		exclusive = true,
 		checkBoxes = {
 			{ text = NEED, var = "AQ", value = 1, tooltip = NEED },
@@ -36,7 +36,7 @@ LazyPigOptions = {
 		},
 	},
 	{
-		text = "Black Morass Corrupted Sand Automation",
+		text = "Automatización de arenas corruptas de Ciénaga Negra",
 		exclusive = true,
 		checkBoxes = {
 			{ text = NEED, var = "SAND", value = 1, tooltip = NEED },
@@ -45,7 +45,7 @@ LazyPigOptions = {
 		},
 	},
 	{
-		text = "Emerald Sanctum Roll Automation",
+		text = "Lanzamiento Automático de Santuario Esmeralda",
 		exclusive = true,
 		checkBoxes = {
 			{ text = NEED, var = "ES_SHARDS", value = 1, tooltip = NEED },
@@ -54,7 +54,7 @@ LazyPigOptions = {
 		},
 	},
 	{
-		text = "Naxxramas Roll Automation",
+		text = "Lanzamiento Automático de Naxxramas",
 		exclusive = true,
 		checkBoxes = {
 			{ text = NEED, var = "NAXX", value = 1, tooltip = NEED },
@@ -63,7 +63,7 @@ LazyPigOptions = {
 		},
 	},
 	{
-		text = "Salvation Remover",
+		text = "Removedor de salvación",
 		exclusive = true,
 		checkBoxes = {
 			{ text = ALWAYS, var = "SALVA", value = 1, tooltip = ALWAYS, setFunc = LazyPig_CheckSalvation },
@@ -71,13 +71,13 @@ LazyPigOptions = {
 		},
 	},
 	{
-		text = "Mana Buffs Remover",
+		text = "Eliminador de mejoras de maná",
 		checkBoxes = {
 			{ text = ALWAYS, var = "REMOVEMANABUFFS", tooltip = "Auto remove Blessing of Wisdom / Arcane Intellect / Prayer of Spirit. Disabled in battlegrounds.", setFunc = LazyPig_CheckManaBuffs },
 		},
 	},
 	{
-		text = "Group Invite Accept Rules",
+		text = "Reglas para aceptar invitaciones grupales",
 		checkBoxes = {
 			{ text = "GuildMates", var = "GINV", tooltip = "Auto accept invites from guild members." },
 			{ text = "Friends", var = "FINV", tooltip = "Auto accept invites from friends." },
@@ -86,7 +86,7 @@ LazyPigOptions = {
 		},
 	},
 	{
-		text = "Battlegrounds Automation",
+		text = "Automatización de campos de batalla",
 		checkBoxes = {
 			{ text = "Enter Battleground", var = "EBG", tooltip = "Enter battleground as soon as the queue popup." },
 			{ text = "Leave Battleground", var = "LBG", tooltip = "Leave battleground as soon as it's finished." },
@@ -97,7 +97,7 @@ LazyPigOptions = {
 		},
 	},
 	{
-		text = "Chat Filter",
+		text = "Filtro de chat",
 		checkBoxes = {
 			{ text = "Players' Spam", var = "SPAM", tooltip = "Hide players' spam messages." },
 			{ text = "Uncommon Roll", var = "SPAM_UNCOMMON", tooltip = "Hide uncommon (green) loot roll messages." },
@@ -107,7 +107,7 @@ LazyPigOptions = {
 		},
 	},
 	{
-		text = "World Chat Mute",
+		text = "Silenciar el chat mundial",
 		checkBoxes = {
 			{ text = "Dungeons", var = "WORLDDUNGEON", tooltip = "Mute world chat while in dungeons.", setFunc = LazyPig_ZoneCheck },
 			{ text = "Raids", var = "WORLDRAID", tooltip = "Mute world chat while in raids.", setFunc = LazyPig_ZoneCheck },
