@@ -418,7 +418,7 @@ function LazyPig_OnEvent(event)
 		this:UnregisterEvent("ADDON_LOADED")
 		local title = GetAddOnMetadata("_LazyPig", "Title")
 		local version = GetAddOnMetadata("_LazyPig", "Version")
-		DEFAULT_CHAT_FRAME:AddMessage(title.." v"..version.."|cffffffff".." loaded, type".."|cff00eeee".." /lp".."|cffffffff for options")
+		DEFAULT_CHAT_FRAME:AddMessage(title.." v"..version.."|cffffffff".." cargado, escriba".."|cff00eeee".." /lp".."|cffffffff para más opciones.")
 
 	elseif event == "PLAYER_LOGIN" then
 		LazyPig_CreateOptionsFrame()
