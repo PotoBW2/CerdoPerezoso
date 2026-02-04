@@ -13,7 +13,7 @@ local FontstringTables = {
 		[1] = { "LazyPig_kbfs010", "Seguir:", "CTRL-SHIFT" },
 		[2] = { "LazyPig_kbfs011", "Inspeccionar jugador/Oferta de subasta:", "ALT-SHIFT" },
 		[3] = { "LazyPig_kbfs012", "Enviar correo/Crear subasta:", "CTRL-ALT" },
-		[4] = { "LazyPig_kbfs013", "Confirmar ventana emergente/Comprar subasta:", "CTRL-ALT" },
+		[4] = { "LazyPig_kbfs013", "Confirmar ventana de Comprar en subasta:", "CTRL-ALT" },
 		[5] = { "LazyPig_kbfs014", "Iniciar-Aceptar Comercio:", "CTRL-ALT" },
 	},
 
@@ -23,7 +23,7 @@ local FontstringTables = {
 		[2] = { "LazyPig_kbfs021", "Despegado", "" },
 		[3] = { "LazyPig_kbfs022", "Recargar UI:", "" },
 		[4] = { "LazyPig_kbfs023", "Solicitud de cancelación de EFC/Duelo de Objetivo GGG", "" },
-		[5] = { "LazyPig_kbfs024", "Eliminar la bandera de GGG/Eliminar la mejora de caída lenta", "" },
+		[5] = { "LazyPig_kbfs024", "Eliminar la bandera en GGG/Eliminar caída lenta", "" },
 	},
 }
 
