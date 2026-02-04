@@ -1,8 +1,8 @@
 ## Interface: 11200
 ## Title: [|cff3fcf26K|r] CerdoPerezoso
-## Version: 6.0.5.1
+## Version: 6.1.2.1
 ## Notes: Escriba /lp por primera vez para configurar el complemento que se adapte a sus necesidades, este complemento administra muchas tareas simples, como desmontar automáticamente, aceptar automáticamente o girar automáticamente, y también puede filtrar el chat de spam común o apagar completamente los canales mientras está en un tipo de zona, por lo que se recomienda configurarlo a su gusto al iniciar sesión.
 ## Author: Ogrisch, mrmr, |cffbe5effLexie|r y |c013220ffTrumpetX|r . Traducción hecha por PotoBW
-## SavedVariables: LPCONFIG, LPMULTIBOX
+## SavedVariables: LPCONFIG
 
 LazyPig.xml

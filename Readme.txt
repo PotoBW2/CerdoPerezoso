@@ -1,111 +1,46 @@
-Updated for Turtle WoW Expansion mounts and Riding Turtle - autodismount
+Actualizado para las monturas de la expansión Turtle WoW y Riding Turtle: desmontaje automático
 
 
-This mod is mostly for lazy people:
+Este mod es principalmente para gente perezosa:
 
 
 MEJORAS PASIVAS:
-AUTO DISMOUNT 				- when casting spell or interacting with flightmaster(aq40 mounts included)
-AUTO ZG ROLL 				- on bijou, coins(avaliable 4 modes: off, Paso, Codicia, Necesidad)
-POSICIÓN AUTOMÁTICA DE LA VENTANA DE BOTÍN: debajo del cursor al saquear
-GOSSIP AUTO PROCESSING			- when talking to NPC(taxi, battlemaster, innkeeper, vendors)
-Silenciar el Chat Mundial				- mute /world channel in raid/dungeon/bg zone also filter repeated messages(30s default ban time)
-IMPROVED RIGHT CLICK			- if trade/auction/mail window is active, right click on container item will drag and drop it into trade/auction_create/send_mail window
+DESMONTAJE AUTOMÁTICO 				        - Al lanzar hechizos o interactuar con el maestro de vuelo (monturas AQ40 incluidas)
+LANZAMIENTO ZG AUTOMÁTICO 				    - en bijou, monedas(disponible 4 modos: fuera, Paso, Codicia, Necesidad)
+POSICIÓN AUTOMÁTICA DE LA VENTANA DE BOTÍN: - debajo del cursor al saquear
+PROCESAMIENTO AUTOMÁTICO DE CHISMES			- Al hablar con NPC (taxi, maestro de batalla, posadero, vendedores)
+Silenciar el Chat Mundial				    - Silenciar el canal /mundial en la zona de incursión/mazmorra/campo de batalla, también filtra los mensajes repetidos (tiempo de prohibición predeterminado de 30 s)
+CLIC DERECHO MEJORADO			            - Si la ventana de comercio/subasta/correo está activa, haga clic derecho en el elemento contenedor y lo arrastrará y soltará en la ventana de comercio/subasta_crear/enviar_correo
 
 
-ACTIVE ENHANCEMENTS(require shift modifier key press):
-SHIFT SPLIT/MERGE			- shift + right will split stacked items
-AUTO GREY SELL/REPAIR			- press shift when merchant frame is open
-REPEATABLE QUESTS AUTOCOMPLETE 		- token quests like: AD(scourge stones,insignias), ZG(coins), BG(marks), Thorium Shells (v1.7changelog)
+MEJORAS ACTIVAS (requieren presionar la tecla modificadora Shift):
+MAYÚSCULAS DIVIDIR/FUSIONAR         - Shift + clic derecho dividirá los elementos apilados
+AUTO GRIS VENTA/REPARACIÓN	        - Presione la tecla Shift cuando el marco del comerciante esté abierto
+MISIONES REPETIBLES AUTOCOMPLETADAS - Misiones simbólicas como: AD (piedras de la plaga, insignias), ZG (monedas), BG (marcas), carcasas de torio (registro de cambios de la v1.7)
 
-MINOR ENHANCEMENTS:
-ACEPTACIÓN AUTOMÁTICA DE GRUPO - 3 modos (COMPAÑEROS DE GREMIO, COMPAÑEROS DE GREMIO > AMIGOS, TODOS)
-ACEPTACIÓN AUTOMÁTICA DE INVOCACIÓN: acepta 2 segundos antes de que expire el tiempo de confirmación
-INSTANCE RESURECTION ACCEPT OOC		- instant accept OOC(ouf of combat)
-DISTANCIA DE CÁMARA AMPLIADA: aumenta la distancia máxima de la cámara hasta 50 yardas
+MEJORAS MENORES:
+ACEPTACIÓN AUTOMÁTICA DE GRUPO           - 3 modos (COMPAÑEROS DE GREMIO, COMPAÑEROS DE GREMIO > AMIGOS, TODOS)
+ACEPTACIÓN AUTOMÁTICA DE INVOCACIÓN:     - acepta 2 segundos antes de que expire el tiempo de confirmación
+ACEPTACIÓN RESURRECCIÓN DE INSTANCIA OOC - aceptación instantánea OOC (fuera de combate)
+DISTANCIA DE CÁMARA AMPLIADA:            - aumenta la distancia máxima de la cámara hasta 50 yardas
 
 
 Combinaciones especiales de teclas
-alt+ctrl+shift				- logout
+alt+ctrl+shift			- cerrar sesión
 
-ctrl+shift				- follow
+ctrl+shift				- seguir
 
-alt+shift 				- inspect, click button: bid_auction
+alt+shift 				- Inspeccionar, hacer clic en el botón: bid_auction
 
-alt+ctrl				- initiate/accept trade with other player, 
-					  confirm popups: group_invite/bg_entry/release_spirit/recover_corpse/summon etc etc,
-					  click button: send_mail/create_auction/buyout_auction/accept quest etc etc,
-					  roll: on greenies other clolors are ignored, 3 modes (Necesidad,GREEN,Paso)
-
-
+alt+ctrl				- Iniciar / aceptar comercio con otro jugador, 
+					  confirmar ventanas emergentes: invitación_de_grupo/entrar_al_campo_de_batalla/revivir/rencarnar/invocar etc. etc.
+					  Haga clic en el botón: enviar correo/crear subasta/comprar subasta/aceptar misión, etc.
+					  lanzamiento: en los verdes se ignoran otros colores, 3 modos (Necesidad, codicia, Paso)
 
 
 
-typing /lp    - customize addon functionality(most of the functions can be toggled)
-
-Some of the addon's functions may not work if you're using not en/us localized client also bongos and oskin may cause some small issues. 
 
 
-Complementos con funcionalidades similares que ya no necesitas
-- Auto Profit
-- Ez Dismount
-- Automaton
-- Quick Loot
-- Block Salation
-- MailTo -> If you gonna use it anyways be sure to disable _LazyPig features(Improved Right Click and Shift Split/Merge) to avoid override.
+escriba /lp    - Personalizar la funcionalidad del complemento (la mayoría de las funciones se pueden alternar)
 
-New in v1.7 
-Added new feature record/replay for repeatable quests that allows you to complete them extremely fast.
-To record just hold down the Shift key and complete the repeatable quest, after that talk to the NPC again and all
-the previous actions will be auto replayed, remember not to release the Shift key.
-New in v1.8
-Added split feature
-- shift + right click will split stack
-New in v1.9
-Added auto roll option for zg rep items: bijous, coins 
-New in 2.3
-- added easy to use grey sell feature, just press shift key when merchant frame is open
-- thorium shells exchange quest now can be automated(v1.7 changelog)
-- Se agregó la función de cola automática de campos de batalla.
-New in 2.5
-- resolved problem with dismounting when more than 16 buffs is active(tooltip instead of texture scanning)
-- fixed all issues with the auto completing of repeatable quests (bg marks)
-- fixed bg auto leave feature (did not trigger sometimes)
-New in 2.7
-- added new key combinations
-- Se mejoró el clic derecho en los elementos del contenedor.
-- added auto repair function(performed when merchant frame is visible and Shift key pressed)
-- Procesamiento automático de misiones y dialogos mejorado
-New in 2.8
-- improved Shift Split(see v1.8 changelog)
-New in 2.83
-- Se eliminó el comando /lps y se reemplazó por un mecanismo de división intuitivo y fácil de usar (para habilitar la función de división, debe escribir /lp 6, si está deshabilitado)
-New in 2.88
-- added Alt+Ctrl green roll key combinations
-New in 3.0
-- added "Mute World" chat functionality, available 3 modes (RAID>DUNGEON>BG, RAID>DUNGEON, RAID) after leaving specified zone /world chat will be unmuted, function disabled as default type /lp for details
-New in 3.50
-- greatly improved split mechanism, check video
-New in 4.00
-- added GUI to acces type /lp
-New in 4.40
-- added keybindings
-- added spam filter
-- added salvation remover for tanks
-- fixed many small bugs
-New in 4.50
-- couple fixes
-- added drop WSG Flag bindig
-cheers Ogrisch.
-New in 4.52
-- added find wsg efc binding
-- AUTOCOMPLETAR MISIONES REPETIBLES mejorado para wsg y arathi (si eres nivel 60 siempre completarás la versión de nivel 60 sin importar cuál elijas)
-Some of the addon's functions may not work if you're using not en/us localized client also bongos and oskin may cause some small issues. 
-New in 4.56
-- some minor fixes
-- resurrection auto accept now available only in instances
-New in 5.00
-- Función para compartir misiones en el campo de batalla (no más establos vacíos)
-- Brand New GUI made by mrmr thx bro
-New in 5.01
--added auto mana buff remover (Intellect, Spirit, Wisdom).
+Algunas de las funciones del complemento pueden no funcionar si estás usando un cliente que no esté localizado en inglés o estadounidense. Además, Bongos y Oskin pueden causar algunos pequeños problemas.
