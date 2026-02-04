@@ -67,68 +67,68 @@ LazyPigOptions = {
 		exclusive = true,
 		checkBoxes = {
 			{ text = ALWAYS, var = "SALVA", value = 1, tooltip = ALWAYS, setFunc = LazyPig_CheckSalvation },
-			{ text = "Inteligente", var = "SALVA", value = 2, tooltip = "Smart", tooltipSub = "Auto remove if:\nYou are Warrior and have shield equipped,\nYou are Shaman and have shield equipped and have Spirit Armor talent rank 2,\nYou are Druid in Bear Form,\nYou are Paladin with Righteous Fury.", setFunc = LazyPig_CheckSalvation },
+			{ text = "Inteligente", var = "SALVA", value = 2, tooltip = "Inteligente", tooltipSub = "Eliminación automática si:\nEres guerrero y tienes un escudo equipado,\nEres chamán y tienes un escudo equipado y tienes el talento Armadura espiritual rango 2,\nEres druida en forma de oso,\nEres paladín con Furia justa.", setFunc = LazyPig_CheckSalvation },
 		},
 	},
 	{
 		text = "Eliminador de mejoras de maná",
 		checkBoxes = {
-			{ text = ALWAYS, var = "REMOVEMANABUFFS", tooltip = "Auto remove Blessing of Wisdom / Arcane Intellect / Prayer of Spirit. Disabled in battlegrounds.", setFunc = LazyPig_CheckManaBuffs },
+			{ text = ALWAYS, var = "REMOVEMANABUFFS", tooltip = "Eliminación automática de Bendición de Sabiduría / Intelecto Arcano / Oración del Espíritu. Desactivado en campos de batalla.", setFunc = LazyPig_CheckManaBuffs },
 		},
 	},
 	{
 		text = "Reglas para aceptar invitaciones grupales",
 		checkBoxes = {
-			{ text = "Compañeros de gremio", var = "GINV", tooltip = "Auto accept invites from guild members." },
-			{ text = "Amigos", var = "FINV", tooltip = "Auto accept invites from friends." },
-			{ text = "Extraños", var = "SINV", tooltip = "Auto accept invites from strangers." },
-			{ text = "Inactivo mientras está en BG o en cola", var = "DINV", tooltip = "Do not auto accept invites while in battleground or queue." }
+			{ text = "Compañeros de gremio", var = "GINV", tooltip = "Aceptar automáticamente invitaciones de miembros del gremio." },
+			{ text = "Amigos", var = "FINV", tooltip = "Aceptar automáticamente invitaciones de amigos." },
+			{ text = "Extraños", var = "SINV", tooltip = "Aceptar automáticamente invitaciones de desconocidos." },
+			{ text = "Inactivo mientras está en BG o en cola", var = "DINV", tooltip = "No aceptar invitaciones automáticamente mientras estés en el campo de batalla o en la cola." }
 		},
 	},
 	{
 		text = "Automatización de campos de batalla",
 		checkBoxes = {
-			{ text = "Entrar al campo de batalla", var = "EBG", tooltip = "Enter battleground as soon as the queue popup." },
-			{ text = "Abandonar el campo de batalla", var = "LBG", tooltip = "Leave battleground as soon as it's finished." },
-			{ text = "Campo de batalla de cola", var = "QBG", tooltip = "Join first available queue as soon as the battle master is right-clicked." },
-			{ text = "Liberación automática", var = "RBG", tooltip = "Auto release spirit in battlegrounds." },
-			{ text = "Anuncio de la cola del líder", var = "AQUE", tooltip = "Auto announce joining battleground queue as a raid leader." },
-			{ text = "Compartir misiones de Block BG", var = "SBG", tooltip = "Auto decline shared quests while in battlegrounds." }
+			{ text = "Entrar al campo de batalla", var = "EBG", tooltip = "Entra al campo de batalla tan pronto como aparezca la cola." },
+			{ text = "Abandonar el campo de batalla", var = "LBG", tooltip = "Abandona el campo de batalla tan pronto como haya terminado." },
+			{ text = "Campo de batalla de cola", var = "QBG", tooltip = "Únase a la primera cola disponible tan pronto como haga clic derecho en el maestro de batalla." },
+			{ text = "Liberación automática", var = "RBG", tooltip = "Liberación automática de espíritu en los campos de batalla." },
+			{ text = "Anuncio de la cola del líder", var = "AQUE", tooltip = "Anuncia automáticamente unirse a la cola del campo de batalla como líder de incursión." },
+			{ text = "Compartir misiones de Block BG", var = "SBG", tooltip = "Rechazar automáticamente misiones compartidas mientras estás en los campos de batalla." }
 		},
 	},
 	{
 		text = "Filtro de chat",
 		checkBoxes = {
-			{ text = "Spam de los jugadores", var = "SPAM", tooltip = "Hide players' spam messages." },
-			{ text = "Lanzamiento poco común", var = "SPAM_UNCOMMON", tooltip = "Hide uncommon (green) loot roll messages." },
-			{ text = "Lanzamiento raro", var = "SPAM_RARE", tooltip = "Hide rare (blue) loot roll messages." },
-			{ text = "Botín pobre-común", var = "SPAM_LOOT", tooltip = "Hide poor and common (grey and white) loot roll messages." },
-			{ text = "Mensajes de Cerdo Perezoso", var = "ROLLMSG", tooltip = "Show LazyPig auto roll messages." }
+			{ text = "Spam de los jugadores", var = "SPAM", tooltip = "Ocultar los mensajes de spam de los jugadores." },
+			{ text = "Lanzamiento poco común", var = "SPAM_UNCOMMON", tooltip = "Ocultar mensajes de botín poco comunes (verdes)." },
+			{ text = "Lanzamiento raro", var = "SPAM_RARE", tooltip = "Ocultar mensajes de botín raros (azules)." },
+			{ text = "Botín pobre-común", var = "SPAM_LOOT", tooltip = "Ocultar los mensajes de botín comunes y pobres (grises y blancos)." },
+			{ text = "Mensajes de Cerdo Perezoso", var = "ROLLMSG", tooltip = "Mostrar mensajes de rotación automática de Cerdo Perezoso." }
 		},
 	},
 	{
 		text = "Silenciar el chat mundial",
 		checkBoxes = {
-			{ text = "Mazmorras", var = "WORLDDUNGEON", tooltip = "Mute world chat while in dungeons.", setFunc = LazyPig_ZoneCheck },
-			{ text = "Raids", var = "WORLDRAID", tooltip = "Mute world chat while in raids.", setFunc = LazyPig_ZoneCheck },
-			{ text = "Campos de Batalla", var = "WORLDBG", tooltip = "Mute world chat while in battlegrounds.", setFunc = LazyPig_ZoneCheck },
-			{ text = "Silenciar Permanentemente", var = "WORLDUNCHECK", tooltip = "Mute world chat for good...", setFunc = LazyPig_ZoneCheck }
+			{ text = "Mazmorras", var = "WORLDDUNGEON", tooltip = "Silenciar el chat mundial mientras estás en las mazmorras.", setFunc = LazyPig_ZoneCheck },
+			{ text = "Bandas", var = "WORLDRAID", tooltip = "Silenciar el chat mundial durante las Bandas.", setFunc = LazyPig_ZoneCheck },
+			{ text = "Campos de Batalla", var = "WORLDBG", tooltip = "Silenciar el chat mundial mientras estás en los campos de batalla.", setFunc = LazyPig_ZoneCheck },
+			{ text = "Silenciar Permanentemente", var = "WORLDUNCHECK", tooltip = "Silenciar el chat mundial para siempre...", setFunc = LazyPig_ZoneCheck }
 		},
 	},
 	{
 		text = MISCELLANEOUS,
 		checkBoxes = {
-			{ text = "Aceptación automática de invocación", var = "SUMM", tooltip = "Summon Auto Accept", tooltipSub = "If checked summons will be accepted before they expire." },
-			{ text = "Posición automática de la ventana de botín", var = "LOOT", tooltip = "Loot Window Auto Position", tooltipSub = "Position the loot window under the mouse cursor."},
-			{ text = "Clic derecho mejorado", var = "RIGHT", tooltip = "Improved Right Click", tooltipSub = "Right Click to drag and drop items into Mail, Trade, Auction Frames.", setFunc = LazyPig_MailtoCheck },
-			{ text = "División/fusión de pila fácil", var = "SHIFTSPLIT", tooltip = "Easy stack split/merge", tooltipSub = "Shift + Right Click on item to start, hold Control or Alt to change split amount, Shift + Right Click on item again to finish.", setFunc = LazyPig_MailtoCheck },
-			{ text = "Distancia de cámara extendida", var = "CAM", tooltip = "Extended Camera Distance", tooltipSub = "Extend the camera distance to its maximum.", setFunc = LazyPig_RefreshCamera },
-			{ text = "Combinaciones especiales de teclas", var = "SPECIALKEY", tooltip = "Special Key Combinations", tooltipSub = "Activate the Special Key Combinations, click Keybinds button for more details." },
-			{ text = "Rechazo automático de duelo", var = "DUEL", tooltip = "Auto decline duels (hold Shift to bypass)." },
-			{ text = "Aceptación automática de resurrección de instancia", var = "REZ", tooltip = "Instance Resurrection Auto Accept", tooltipSub = "Auto accept resurrection in raids, dungeons and battlegrounds if player resurrecting you is out of combat." },
-			{ text = "Procesamiento automático de chismes", var = "GOSSIP", tooltip = "Gossip Auto Processing (hold Shift to bypass)", tooltipSub = "Skip gossip choises from innkeepers, fly masters etc." },
-			{ text = "Desmontaje automático", var = "DISMOUNT", tooltip = "Auto Dismount", tooltipSub = "Auto dismount when it's required by another action." },
-			{ text = "Postura automática", var = "AUTOSTANCE", tooltip = "Auto Stance", tooltipSub = "Automatically change to required warrior stance/druid form on spell cast." },
+			{ text = "Aceptación automática de invocación", var = "SUMM", tooltip = "Aceptación automática de invocación", tooltipSub = "Si se marca, las citaciones serán aceptadas antes de su vencimiento." },
+			{ text = "Posición automática de la ventana de botín", var = "LOOT", tooltip = "Posición automática de la ventana de botín", tooltipSub = "Coloca la ventana de botín debajo del cursor del ratón."},
+			{ text = "Clic derecho mejorado", var = "RIGHT", tooltip = "Clic derecho mejorado", tooltipSub = "Haga clic derecho para arrastrar y soltar elementos en los marcos de correo, comercio y subasta.", setFunc = LazyPig_MailtoCheck },
+			{ text = "División/fusión de pila fácil", var = "SHIFTSPLIT", tooltip = "División/fusión de pila fácil", tooltipSub = "Presione Mayús + clic derecho en el elemento para comenzar, mantenga presionada la tecla Control o Alt para cambiar la cantidad de división, presione Mayús + clic derecho en el elemento nuevamente para finalizar.", setFunc = LazyPig_MailtoCheck },
+			{ text = "Distancia de cámara extendida", var = "CAM", tooltip = "Distancia de cámara extendida", tooltipSub = "Amplíe la distancia de la cámara al máximo.", setFunc = LazyPig_RefreshCamera },
+			{ text = "Combinaciones especiales de teclas", var = "SPECIALKEY", tooltip = "Combinaciones especiales de teclas", tooltipSub = "Active las combinaciones de teclas especiales, haga clic en el botón Combinaciones de teclas para obtener más detalles." },
+			{ text = "Rechazo automático de duelo", var = "DUEL", tooltip = "Rechazo automático de duelos (mantenga presionada la tecla Shift para omitirlo)." },
+			{ text = "Aceptación automática de resurrección de instancia", var = "REZ", tooltip = "Aceptación automática de resurrección de instancia", tooltipSub = "Aceptar automáticamente la resurrección en bandas, mazmorras y campos de batalla si el jugador que te resucita está fuera de combate." },
+			{ text = "Procesamiento automático de chismes", var = "GOSSIP", tooltip = "Procesamiento automático de chismes (mantenga presionada la tecla Shift para omitir)", tooltipSub = "Evite los chismes que le generan los posaderos, los maestros de vuelo, etc." },
+			{ text = "Desmontaje automático", var = "DISMOUNT", tooltip = "Desmontaje automático", tooltipSub = "Desmontar automáticamente cuando lo requiera otra acción." },
+			{ text = "Postura automática", var = "AUTOSTANCE", tooltip = "Postura automática", tooltipSub = "Cambia automáticamente a la postura de guerrero/forma de druida requerida al lanzar el hechizo." },
 		},
 	},
 }
